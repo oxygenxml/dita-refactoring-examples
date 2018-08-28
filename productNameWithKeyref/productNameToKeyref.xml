@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="productNameToKeyref" name="Product name to keyref">
+    <description>Replace the product name with a ph containing a keyref.</description>    
+    <script type="XSLT" href="prodNameToKeyref.xsl"/>
+    <parameters>
+        <description>The product name.</description>
+        <parameter label="Product name" name="prodName" type="TEXT" optional="false">   
+            <description>The product name</description>
+        </parameter>
+        <parameter label="Key name" name="keyName" type="TEXT" optional="false">   
+            <description>The key name</description>
+        </parameter>
+    </parameters>
+</refactoringOperationDescriptor>

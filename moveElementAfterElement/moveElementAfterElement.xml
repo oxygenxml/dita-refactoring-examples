@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="surroundInElement" name="Move Element after element">
+    <description>Move element after element</description>    
+    <script type="XSLT" href="moveElementAfterElement.xsl"/>
+    <parameters>
+        <description>Move params.</description>
+        <parameter label="Name Of element" name="elName" type="TEXT" optional="false">   
+            <description>Name of current element</description>
+        </parameter>
+        <parameter label="Move element name" name="moveElName" type="TEXT" optional="false">   
+            <description>Name of element to move outside</description>
+        </parameter>
+    </parameters>
+</refactoringOperationDescriptor>

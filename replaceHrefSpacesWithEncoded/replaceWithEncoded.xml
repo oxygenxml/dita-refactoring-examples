@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="replaceWithEncoded" name="Replace spaces with percent encoded">
+    <description>Replace simple spaces in hrefs and conrefs with percent encoded equivalents</description>    
+    <script type="XSLT" href="spacesWithEncoded.xsl"/>
+</refactoringOperationDescriptor>

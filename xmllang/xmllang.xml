@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="xmllang" name="Add xml:lang attributes">
+    <description>Add xml:lang attributes</description>    
+    <script type="XSLT" href="newlang.xsl"/>
+    <parameters>
+        <description>Parameters short description.</description>
+        <parameter label="New language Value" name="newLang" type="TEXT" optional="false">   
+            <description>Enter value for the new language</description>
+        </parameter>
+    </parameters>
+</refactoringOperationDescriptor>

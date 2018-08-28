@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="attrToElement" name="Convert attribute to attribute">
+    <description>Convert Attribute to Attribute.</description>    
+    <script type="XSLT" href="attributeToAttribute.xsl"/>
+    <parameters>
+        <description>Attribute name.</description>
+        <parameter label="Attribute Name" name="attrName" type="TEXT" optional="false">   
+            <description>Attribute Name</description>
+        </parameter>
+        <parameter label="New Attribute Name" name="newAttrName" type="TEXT" optional="false">   
+            <description>New Attribute Name</description>
+        </parameter>
+    </parameters>
+</refactoringOperationDescriptor>

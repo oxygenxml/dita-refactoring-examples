@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="topicrefsToDITAMap" name="Topicrefs to DITA Map">
+    <description>Extract topicrefs to DITA Map.</description>    
+    <script type="XSLT" href="topicrefsToDITAMap.xsl"/>
+</refactoringOperationDescriptor>
