@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_z1s_d5v_4cb" name="UI Controls Wrap">
+    <description>Wrap UI Controls in menu cascade</description>    
+    <script type="XSLT" href="wrapUIControls.xsl"/>
+</refactoringOperationDescriptor>
