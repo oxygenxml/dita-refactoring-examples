@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<refactoringOperationDescriptor 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_o1j_2l4_y2b" name="Table to definition list">
-    <description>Convert two column tables to definition lists.</description>    
-    <script type="XSLT" href="tableToDL.xsl"/>
-</refactoringOperationDescriptor>
