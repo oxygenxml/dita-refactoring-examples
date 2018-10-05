@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map><title/><topicref xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" href="topic4.dita" outputclass="extract" class="- map/topicref ">
+        <topicref href="topic5.dita" class="- map/topicref "/>
+        <topicref href="topic6.dita" class="- map/topicref "/>
+    </topicref></map>

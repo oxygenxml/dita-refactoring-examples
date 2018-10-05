@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="surroundInElement" name="Surround content in element">
+    <description>Surround content of element inside another element</description>    
+    <script type="XSLT" href="surroundInElement.xsl"/>
+    <parameters>
+        <description>Surround params.</description>
+        <parameter label="Name Of element" name="elName" type="TEXT" optional="false">   
+            <description>Name of current element</description>
+        </parameter>
+        <parameter label="Surround element name" name="surroundElName" type="TEXT" optional="false">   
+            <description>Name of element to surround with</description>
+        </parameter>
+    </parameters>
+</refactoringOperationDescriptor>

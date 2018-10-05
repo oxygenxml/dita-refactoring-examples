@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test_topic">
+    <title>Test Topic</title>
+    <body>
+        <p>
+            <fig id="fig_kqq_25b_ffb">
+                <title>My Figure <image id="image_asr_g5b_ffb" href="images/Chrysanthemums.jpg"
+                    /></title>
+            </fig>
+        </p>
+    </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test_topic">
+    <title>Test Topic</title>
+    <body>
+        <p>Go to <uicontrol>File</uicontrol><uicontrol>Open</uicontrol><uicontrol>From
+            Disk</uicontrol>.</p>
+    </body>
+</topic>

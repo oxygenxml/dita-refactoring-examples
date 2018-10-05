@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test_topic">
+    <title>Test Topic</title>
+    <body>
+        <p>Oxygen XML Editor is a cool application.</p>
+    </body>
+</topic>

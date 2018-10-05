@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test_topic">
+    <title>Test Topic</title>
+    <body>
+        <p>
+            <ul id="ul_iy2_pqb_ffb">
+                <li>abc</li>
+                <li>def</li>
+                <li>
+                    <table frame="all" rowsep="1" colsep="1" id="table_it2_vqb_ffb">
+                        <title>abc</title>
+                        <tgroup cols="2">
+                            <colspec colname="c1" colnum="1" colwidth="1*"/>
+                            <colspec colname="c2" colnum="2" colwidth="1*"/>
+                            <thead>
+                                <row>
+                                    <entry>some </entry>
+                                    <entry>cell</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry/>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </li>
+            </ul>
+        </p>
+    </body>
+</topic>

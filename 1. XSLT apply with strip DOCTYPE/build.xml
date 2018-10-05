@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="test" default="dist">
+    <property name="xmlPath" value=""/>
+    <property name="xslPath" value=""/>
+    <dirname property="base.path" file="${xmlPath}"/>
+    <basename property="xmlName" file="${xmlPath}"/>
+    <target name="dist">
+        <!-- COPY TO TEMPORARY FILE -->
+        <copy file="${xmlPath}" tofile="${base.path}/out/${xmlName}-bak"/>
+        <!-- COMMENT OUT DOCTYPE DECLARATION -->
+        <replaceregexp file="${base.path}/out/${xmlName}-bak"
+            match="(&lt;!DOCTYPE .*?>)"
+            replace="&lt;!--DOCTYPE DECL:\1-->"
+            byline="false"/>
+        <!-- Perform XSLT -->
+        <xslt in="${base.path}/out/${xmlName}-bak" out="${base.path}/out/${xmlName}" style="${xslPath}" force="true"/>
+        <!-- ADD BACK DOCTYPE DECLARATION -->
+        <replaceregexp file="${base.path}/out/${xmlName}"
+            match="&lt;!--DOCTYPE DECL:(.*?)-->"
+            replace="${line.separator}\1${line.separator}"
+            byline="false"/>
+        <delete file="${base.path}/out/${xmlName}-bak"/>
+    </target>
+</project>

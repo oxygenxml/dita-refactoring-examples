@@ -1,7 +1,0 @@
-<project basedir="." name="Create Image Keys Definition Map">
-    <fileset id="dist.contents" dir="images/" includes="*"/>
-    <property name="prop.dist.contents" refid="dist.contents"/>
-    <xslt in="createKeyrefsMap.xsl" style="createKeyrefsMap.xsl" out="images/imageKeydefs.ditamap" destdir=".">
-        <param name="filesList" expression="${prop.dist.contents}"/>
-    </xslt>
-</project>

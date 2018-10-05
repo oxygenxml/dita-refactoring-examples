@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Sort Glossentries</mainbooktitle>
+    </booktitle>
+    <backmatter>
+        <booklists>
+            <glossarylist>
+                <topicref href="glossary/glossItem1.dita"/>
+                <topicref href="glossary/glossItem2.dita"/>
+                <topicref href="glossary/glossItem3.dita"/>
+            </glossarylist>
+        </booklists>
+    </backmatter>
+</bookmap>
