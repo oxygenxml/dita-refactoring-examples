@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Test Mapref</title>
+    <topicref href="reusables.dita" processing-role="resource-only" keys="reusables">
+        <topicmeta>
+            <keywords>
+                <keyword>kw</keyword>
+            </keywords>
+        </topicmeta>
+    </topicref>
+</map>

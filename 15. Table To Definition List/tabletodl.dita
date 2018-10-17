@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tabletodl">
+    <title>TableToDL</title>
+    <body>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_fvm_nyf_jfb">
+                <tgroup cols="2" align="right">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>H1</entry>
+                            <entry>H2</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>P1</entry>
+                            <entry>P2</entry>
+                        </row>
+                        <row>
+                            <entry>P3</entry>
+                            <entry>P4</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

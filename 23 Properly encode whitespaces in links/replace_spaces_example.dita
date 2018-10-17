@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="replace_spaces_example">
+    <title>Replace Spaces Example</title>
+    <body>
+        <p>Some link <xref href="http://some host/path/file name.html" format="html"
+                scope="external"/></p>
+    </body>
+</topic>

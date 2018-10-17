@@ -2,8 +2,5 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Test Map</title>
-    <topicref navtitle="Some Navigation Title">
-        <topicmeta>
-        </topicmeta>
-    </topicref>
+    <topicref navtitle="Some Navigation Title"/>
 </map>

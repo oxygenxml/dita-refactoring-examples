@@ -13,12 +13,14 @@
     <xsl:template match="table[tgroup[@cols='2']]">
         <dl>
             <xsl:for-each select="tgroup/thead/row | tgroup/tbody/row">
-                <dt>
-                    <xsl:copy-of select="entry[1]/node()"/>
-                </dt>
-                <dd>
-                    <xsl:copy-of select="entry[2]/node()"/>
-                </dd>
+                <dlentry>
+                    <dt>
+                        <xsl:copy-of select="entry[1]/node()"/>
+                    </dt>
+                    <dd>
+                        <xsl:copy-of select="entry[2]/node()"/>
+                    </dd>
+                </dlentry>
             </xsl:for-each>
         </dl>
     </xsl:template>
