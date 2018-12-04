@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Operation which can be applied on a DITA topic and which removes the target reference from all links.
+This kind of operation is useful if you want to preview a DITA topic in PDF or XHTML without the engine following each individual link.-->
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_eml_gsg_ybb" name="Remove link targets">
+    <description>This operation removes the targets from all links in a topic</description>    
+    <script type="XSLT" href="ditaRemoveLinkTargets.xsl"/>
+</refactoringOperationDescriptor>
