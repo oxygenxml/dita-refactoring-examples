@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="test" default="rename">
   <target name="rename">
-      <copy todir="D:\flowers">
-          <fileset dir="D:\projects\eXml\samples\dita\flowers"/>
+      <copy todir="sample2/">
+          <fileset dir="sample/"/>
           <compositemapper>
-              <mapper type="regexp" from="(.*)\\ta_(.*)" to="\1/t_\2"/>
-              <mapper type="regexp" from="(.*)\\co_(.*)" to="\1/c_\2"/>
-              <mapper type="regexp" from="(.*)\\re_(.*)" to="\1/r_\2"/>
+              <mapper type="regexp" from="ta_(.*)" to="t_\1"/>
+              <mapper type="regexp" from="co_(.*)" to="c_\1"/>
+              <mapper type="regexp" from="re_(.*)" to="r_\1"/>
               <identitymapper/>
           </compositemapper>
       </copy>      

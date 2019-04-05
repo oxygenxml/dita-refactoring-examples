@@ -4,7 +4,7 @@
     <title>Test Topic</title>
     <body>
         <p>
-            <ul id="ul_iy2_pqb_ffb">
+            <ul>
                 <li>abc</li>
                 <li>def</li>
                 <li>

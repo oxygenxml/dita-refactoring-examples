@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="surroundInElement" name="Move Element after element">
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="moveElementAfterElement" name="Move Element after element">
     <description>Move element after element</description>    
     <script type="XSLT" href="moveElementAfterElement.xsl"/>
     <parameters>

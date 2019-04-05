@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="topicrefKeydef" name="Convert topicrefs to maprefs">
-    <description>Convert topicrefs to maprefs.</description>    
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="topicrefMapref" name="Map - Convert topicrefs to maprefs">
+    <description>Map - Convert topicrefs to maprefs.</description>    
     <script type="XSLT" href="topicrefMapref.xsl"/>
 </refactoringOperationDescriptor>

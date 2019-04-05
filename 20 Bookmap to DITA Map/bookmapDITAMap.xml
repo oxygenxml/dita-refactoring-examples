@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="bookmapDITAMap" name="Bookmap to DITA Map">
-    <description>Convert bookmap to DITA Map</description>    
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="bookmapDITAMap" name="Map - Bookmap to DITA Map">
+    <description>Map - Convert bookmap to DITA Map</description>    
     <script type="XSLT" href="bookmapDITAMap.xsl"/>
 </refactoringOperationDescriptor>

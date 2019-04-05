@@ -5,8 +5,7 @@
     <body>
         <p>
             <fig id="fig_kqq_25b_ffb">
-                <title>My Figure <image id="image_asr_g5b_ffb" href="images/Chrysanthemums.jpg"
-                    /></title>
+                <title>My Figure <image href="images/Chrysanthemums.jpg"/></title>
             </fig>
         </p>
     </body>

@@ -11,7 +11,6 @@
     </xsl:template>
     
     <xsl:template match="@href | @conref | @conrefend">
-        <!--<xsl:message>I am <xsl:value-of select="."/> <xsl:value-of select="matches(., 'ta_')"/></xsl:message>-->
         <xsl:choose>
             <xsl:when test="matches(., '/ta_(.*)#')">
                 <xsl:attribute name="{name()}">
@@ -23,14 +22,14 @@
                     <xsl:value-of select="replace(., '/ta_(.*)$', '/t_$1')"/>
                 </xsl:attribute>
             </xsl:when>
-            <xsl:when test="matches(., '/re_(.*)#')">
+            <xsl:when test="matches(., 're_(.*)#')">
                 <xsl:attribute name="{name()}">
-                    <xsl:value-of select="replace(., '/re_(.*)#', '/r_$1#')"/>
+                    <xsl:value-of select="replace(., 're_(.*)#', 'r_$1#')"/>
                 </xsl:attribute>
             </xsl:when>
-            <xsl:when test="matches(., '/re_(.*)$')">
+            <xsl:when test="matches(., 're_(.*)$')">
                 <xsl:attribute name="{name()}">
-                    <xsl:value-of select="replace(., '/re_(.*)$', '/r_$1')"/>
+                    <xsl:value-of select="replace(., 're_(.*)$', 'r_$1')"/>
                 </xsl:attribute>
             </xsl:when>
             <xsl:otherwise>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="theadtopicref" name="Convert topicheads to topicrefs">
-    <description>Convert topicheads to topicrefs.</description>    
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="theadtopicref" name="Map - Convert topicheads to topicrefs">
+    <description>Map - Convert topicheads to topicrefs.</description>    
     <script type="XSLT" href="theadTopicref.xsl"/>
 </refactoringOperationDescriptor>

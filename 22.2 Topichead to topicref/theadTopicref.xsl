@@ -16,7 +16,7 @@
             <xsl:attribute name="href" select="$newFileName"/>
             <xsl:apply-templates select="node()"/>
         </xsl:element>
-        <xsl:result-document href="{$newFileName}" doctype-public="-//OASIS//DTD DITA Topic//EN" doctype-system="topic.dtd">
+        <xsl:result-document href="{resolve-uri($newFileName, base-uri())}" doctype-public="-//OASIS//DTD DITA Topic//EN" doctype-system="topic.dtd">
             <topic id="introduction">
                 <title><xsl:value-of select="@navtitle"/></title>
             </topic>                

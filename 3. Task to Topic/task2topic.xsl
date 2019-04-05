@@ -39,9 +39,16 @@
     </xsl:template>
     
     <xsl:template match="step">
-        <ul>
+        <li>
             <xsl:apply-templates select="@*"/>
             <xsl:apply-templates/>
-        </ul>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="cmd">
+        <p>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
 </xsl:stylesheet>

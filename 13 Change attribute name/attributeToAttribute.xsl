@@ -5,6 +5,7 @@
     version="2.0">
     
     <xsl:param name="attrName"/>
+    <xsl:param name="elemName"/>
     <xsl:param name="newAttrName"/>
     
     <xsl:template match="node() | @*">
@@ -13,7 +14,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="*[@*[name() = $attrName]]">
+    <xsl:template match="*[local-name()=$elemName][@*[name() = $attrName]]">
         <xsl:copy>
             <xsl:apply-templates select="@* except @*[name() = $attrName]"/>
             <xsl:attribute name="{$newAttrName}">

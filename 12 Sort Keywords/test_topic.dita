@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="test_topic">
-    <title>Test Topic</title>
+    <title>Test Topic </title>
     <prolog>
         <metadata>
             <keywords>
-                <keyword>z</keyword>
-                <keyword>b</keyword>
-                <keyword>a</keyword>
+                <keyword>pairs</keyword>
+                <keyword>apples</keyword>
+                <keyword>peaches</keyword>
             </keywords>
         </metadata>
     </prolog>
