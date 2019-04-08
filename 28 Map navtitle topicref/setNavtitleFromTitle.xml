@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_oc5_gnc_dhb" name="Set navtitle from topic title">
+    <description>Set topicref navtitle from topic title.</description>    
+    <script type="XSLT" href="navtitleFromTitle.xsl"/>
+</refactoringOperationDescriptor>
