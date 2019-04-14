@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Taking care of flowers</title>
+    <shortdesc>With just a little bit of care and preparation, any flower garden can be a vibrantly
+        colored environment.</shortdesc>
+    <body>
+        <p>With just a little bit of care and preparation, any flower garden can be a vibrantly
+            colored environment. Flowers can be selected for specific blooming seasons, colors and
+            shapes. Both annual and <xref keyref="perennial" format="dita">perennial</xref> flower
+            gardens can be planted depending on climate and specific needs.</p>
+        <section id="section_kfc_zs4_jhb">
+            <title>Care and pruning</title>
+            <p>When caring for your flower garden you want to feed your plants properly, control
+                pests and weeds. Good soil is a must to successful gardening, landscaping, and
+                healthy flowers. You have to
+                    <indexterm>tasks<indexterm>preparation</indexterm></indexterm>balance the soil
+                structure with nutrients and regulate the pH to cover your plants'
+                needs.<?oxy_comment_start author="Mary" timestamp="20120510T121702+0300" comment="Let&apos;s add information about fertilizers."?><?oxy_comment_start author="John" timestamp="20120510T121814+0300" comment="We must include information about fertilizers impact to the environment." mid="1"?>
+                And above all, remember that many flower gardens fail because they just don't get
+                enough of your attention.<?oxy_comment_end?><?oxy_comment_end mid="1"?></p>
+        </section>
+    </body>
+</topic>
