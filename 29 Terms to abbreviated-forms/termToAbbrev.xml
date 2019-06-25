@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Based on:
+https://www.oxygenxml.com/forum/viewtopic.php?f=20&t=20193-->
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_oc5_gnc_dhb" name="Convert terms to abbreviated forms">
+    <description>Convert terms to abbreviated forms</description>    
+    <script type="XSLT" href="termToAbbrev.xsl"/>
+</refactoringOperationDescriptor>
