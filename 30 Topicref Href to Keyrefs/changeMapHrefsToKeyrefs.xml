@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="op_sbw_kcm_wjb" name="Change topicref hrefs to keyrefs">
+    <description>Changes all topicref hrefs to keyrefs and creates an extra key definition DITA Map.</description>    
+    <script type="XSLT" href="changeMapHrefsToKeyrefs.xsl"/>
+</refactoringOperationDescriptor>
