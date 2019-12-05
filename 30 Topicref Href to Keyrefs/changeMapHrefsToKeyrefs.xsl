@@ -21,7 +21,7 @@
                     <title>Key definitions</title>
                     <xsl:for-each select="//topicref[@href]">
                         <keydef>
-                            <xsl:apply-templates select="@*[namespace-uri() = ''] except @href"/>
+                            <xsl:apply-templates select="@*[namespace-uri() = '']"/>
                             <xsl:attribute name="keys">
                                 <xsl:value-of select="oxy:extractKeyName(@href)"/>
                             </xsl:attribute>
