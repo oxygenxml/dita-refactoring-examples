@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="enableCT" name="Enable change tracking">
+    <description>Enable change tracking.</description>    
+    <script type="XSLT" href="enableCT.xsl"/>
+</refactoringOperationDescriptor>
