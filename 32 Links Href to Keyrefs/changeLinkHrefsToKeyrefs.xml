@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="link_href_keyref" name="Change DITA Link hrefs to keyrefs">
+    <description>Changes all link hrefs to keyrefs and creates an extra key definition DITA Map.</description>    
+    <script type="XSLT" href="changeLinkHrefsToKeyrefs.xsl"/>
+</refactoringOperationDescriptor>
