@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" 
+  id="convert-attribute-to-element" 
+  name="Convert attribute to element">
+  <description>Converts the specified attribute to an element. 
+    The new element will be inserted as first child of the attribute's
+    parent element.</description>    
+  <script type="XSLT" href="convert-attribute-to-element.xsl"/>
+  <parameters>
+    <description>Specify the attribute to be converted to element.</description>
+    <section label="Parent element">
+      <elementParameter id="elemID">
+        <localName label="Name" name="element_localName" allowsAny="true">
+          <description>Local name of the parent element.</description>            
+        </localName>
+        <namespace label="Namespace" name="element_namespace" allowsAny="true">
+          <description>Local name of the parent element</description>            
+        </namespace>        
+      </elementParameter>
+    </section>
+    <section label="Attribute">
+      <attributeParameter dependsOn="elemID">
+        <localName label="Name" name="attribute_localName">
+          <description>Name of the attribute to be converted.</description>
+        </localName>
+        <namespace label="Namespace" name="attribute_namespace" allowsAny="true">
+          <description>Namespace of the attribute to be converted.</description>
+        </namespace>        
+      </attributeParameter>
+    </section>
+    <section label="New element">
+      <elementParameter>
+        <localName label="Name" name="new_element_localName">
+          <description>The name of the new element.</description>
+        </localName>
+        <namespace label="Namespace" name="new_element_namespace">
+          <description>The namespace of the new element.</description>
+        </namespace>        
+      </elementParameter>
+    </section>
+  </parameters>
+</refactoringOperationDescriptor>
