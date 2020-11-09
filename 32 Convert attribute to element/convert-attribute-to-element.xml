@@ -2,7 +2,7 @@
 <refactoringOperationDescriptor 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" 
-  id="convert-attribute-to-element" 
+  id="convert-attribute-to-element-custom" 
   name="Convert attribute to element">
   <description>Converts the specified attribute to an element. 
     The new element will be inserted as first child of the attribute's
