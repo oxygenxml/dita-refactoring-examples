@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="phKeyrefKeyword" name="Add xml:lang attributes">
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="phKeyrefKeyword" name="Convert ph with keyref to keyword">
     <description>Convert ph with keyref to keyword</description>    
     <script type="XSLT" href="phKeyrefToKeyword.xsl"/>
 </refactoringOperationDescriptor>
