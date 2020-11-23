@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="set_navtitle_element_topic_title" name="Set navtitle element from topic title for topicref and chapter elements.">
+	<description>Set navtitle element from topic title for topicref and chapter elements.</description>    
+	<script type="XSLT" href="SetnavtitleFromTopicTitle.xsl"/>
+</refactoringOperationDescriptor>
