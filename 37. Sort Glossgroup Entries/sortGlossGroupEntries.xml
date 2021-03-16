@@ -1,0 +1,6 @@
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="sort-glossgroup-entries" name="Sort gloss group entries">
+    <description>Sort glossgroup entries.</description>    
+    <script type="XSLT" href="sortGlossGroupEntries.xsl"/>
+</refactoringOperationDescriptor>
