@@ -1,6 +1,6 @@
 <refactoringOperationDescriptor 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="sort-glossgroup-entries" name="Sort gloss group entries (Chinese - Pinyin)">
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="sort-glossgroup-entries-pinyin" name="Sort gloss group entries (Chinese - Pinyin)">
     <description>Sort glossgroup entries interpreting Chinese characters as Pinyin equivalents.</description>    
     <script type="XSLT" href="sortGlossGroupEntriesPinyin.xsl"/>
 </refactoringOperationDescriptor>
