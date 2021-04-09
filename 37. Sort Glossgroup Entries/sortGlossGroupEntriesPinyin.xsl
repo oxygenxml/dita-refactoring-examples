@@ -13,7 +13,7 @@
             <xsl:apply-templates select="@*"/>
             <xsl:apply-templates select="title"/>
             <xsl:apply-templates select="glossentry">
-                <xsl:sort select="oxy:toPinyin(concat(glossterm/text(), ''))"
+                <xsl:sort select="oxy:toPinyin(string-join(glossterm//text()))"
                     case-order="lower-first"/>
             </xsl:apply-templates>
         </xsl:copy>
@@ -20947,6 +20947,6 @@
                 </xsl:fallback>
             </xsl:analyze-string>
         </xsl:variable>
-        <xsl:value-of select="concat($finalContent, '')"/>
+        <xsl:value-of select="string-join($finalContent)"/>
     </xsl:function>
 </xsl:stylesheet>
