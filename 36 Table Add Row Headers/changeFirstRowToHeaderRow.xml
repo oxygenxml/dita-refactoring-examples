@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="change_first_row_table_row" name="Change first table row to header row">
+    <description>Change first DITA table row to header row</description>    
+    <script type="XSLT" href="changeFirstRowToHeaderRow.xsl"/>
+</refactoringOperationDescriptor>
