@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<refactoringOperationDescriptor 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="remove_dita_table_row_column_seps" name="Remove all row and column separators">
-    <description>Remove all row and column separators</description>    
-    <script type="XSLT" href="removeAllRowColSeps.xsl"/>
-</refactoringOperationDescriptor>
