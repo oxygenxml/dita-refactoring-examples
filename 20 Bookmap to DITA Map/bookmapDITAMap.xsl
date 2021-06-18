@@ -18,15 +18,39 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="mainbooktitle">
+        <xsl:element name="title">
+            <xsl:apply-templates select="@* | *"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="booktitle">
+        <!-- hide the element, but keep the children -->
+        <xsl:apply-templates select="@* | *"/>
+    </xsl:template>
+    
     <xsl:template match="bookmeta">
         <xsl:element name="topicmeta">
             <xsl:apply-templates select="@* | *"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="chapter | appendix |preface | frontmatter | notices">
+    <xsl:template match="bookrights">
+        <xsl:element name="copyright">
+            <xsl:apply-templates select="@* | *"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="bookowner">
+        <xsl:element name="copyrholder">
+            <xsl:apply-templates select="@* | *"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="chapter | appendix |preface | frontmatter | notices | bookabstract">
         <xsl:element name="topicref">
             <xsl:apply-templates select="@* | *"/>
         </xsl:element>
     </xsl:template>
+    
 </xsl:stylesheet>
