@@ -20,7 +20,7 @@
     
     <xsl:template match="mainbooktitle">
         <xsl:element name="title">
-            <xsl:apply-templates select="@* | *"/>
+            <xsl:apply-templates select="node() | @*"/>
         </xsl:element>
     </xsl:template>
     
