@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="remove_image_maps" name="Remove image maps">
+    <description>Remove image maps and leave the image reference in place</description>    
+    <script type="XSLT" href="removeImageMaps.xsl"/>
+</refactoringOperationDescriptor>
