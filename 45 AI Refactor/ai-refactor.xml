@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="ai-refactor-shortdesc" name="AI Shorten Shortdesc">
+    <description>Use AI to shorten short descriptions.</description>    
+    <script type="XSLT" href="ai-refactor.xsl"/>
+</refactoringOperationDescriptor>
