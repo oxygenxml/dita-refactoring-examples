@@ -2,3 +2,7 @@
 
 A Python script which runs on an input folder containing the DITA XML project, copies all content
 to the output folder and then renames all topics and maps to better match the titles.
+
+Usage example:
+
+    python3 renameFileUsingTitle.py /Users/../Documents/userguide /Users/.../Documents/userguide-output
