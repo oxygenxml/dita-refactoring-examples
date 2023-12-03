@@ -18,7 +18,21 @@ def fillOriginalToNewFileNameMap(folder):
             currentFile = os.path.join(currentpath, file).replace("\\", "/")
             if os.path.isfile(currentFile):
                 addTitleToMapping(currentFile, originalFileNameToNewFileNameMap)
+    originalFileNameToNewFileNameMap = removeDuplicateValues(originalFileNameToNewFileNameMap)
     return originalFileNameToNewFileNameMap
+
+def removeDuplicateValues(originalFileNameToNewFileNameMap):
+    valuesCounter = {}
+    fileNamesMapNoDuplicateVals = {}
+    for key, value in originalFileNameToNewFileNameMap.items():
+        if value in valuesCounter:
+            valuesCounter[value] += 1
+        else: valuesCounter[value] = 1
+    for key, value in originalFileNameToNewFileNameMap.items():
+        if valuesCounter[value] == 1:
+            fileNamesMapNoDuplicateVals[key] = value
+    return fileNamesMapNoDuplicateVals
+    
 
 def addTitleToMapping(currentFile, originalFileNameToNewFileNameMap):
     try:
