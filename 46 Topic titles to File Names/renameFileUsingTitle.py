@@ -121,7 +121,7 @@ def renameRefAttribute(attrName, element, filesToNewNamesMapping):
 
 def isNonXML(filePath):
     extension = getFileExtension(filePath)
-    return extension.lower() in [".png", ".gif", ".jpeg", ".jpg", ".psd", ".txt", ".js", ".html", ".css", ".ds_store", ".yml", ".jar", ".zip", ".exe", ".dll", ".tdi", ".json", ".pdf"]
+    return extension.lower() in [".png", ".gif", ".jpeg", ".jpg", ".psd", ".txt", ".js", ".html", ".css", ".ds_store", ".yml", ".jar", ".zip", ".exe", ".dll", ".tdi", ".json", ".pdf", "*.ico", "*.properties"]
 
 def serializeTreeWithPreservedDOCTYPE(currentFilePath, tree):
     contentBeforeRoot = ""
